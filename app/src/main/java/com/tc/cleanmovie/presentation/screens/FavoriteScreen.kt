@@ -1,4 +1,4 @@
-package com.tc.cleanmovie.presentation.screens.favorite
+package com.tc.cleanmovie.presentation.screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -28,9 +28,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.tc.cleanmovie.framework.data.model.favorite.FavoriteItemModel
-import com.tc.cleanmovie.framework.data.model.movie.MovieItemModel
-import com.tc.cleanmovie.presentation.screens.movies.MovieItem
-import com.tc.cleanmovie.presentation.screens.navigation.Screens
+import com.tc.cleanmovie.presentation.viewmodels.FavoriteViewModel
 
 @Composable
 fun FavoriteScreen(

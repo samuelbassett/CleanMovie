@@ -1,11 +1,11 @@
-package com.tc.cleanmovie.presentation.screens.navigation
+package com.tc.cleanmovie.presentation.screens
 
-import com.tc.cleanmovie.presentation.screens.navigation.ScreenName.FAVORITE_LIST
-import com.tc.cleanmovie.presentation.screens.navigation.ScreenName.FAVORITE_LIST_HEADER
-import com.tc.cleanmovie.presentation.screens.navigation.ScreenName.MOVIE_DETAILS
-import com.tc.cleanmovie.presentation.screens.navigation.ScreenName.MOVIE_DETAILS_HEADER
-import com.tc.cleanmovie.presentation.screens.navigation.ScreenName.MOVIE_LIST
-import com.tc.cleanmovie.presentation.screens.navigation.ScreenName.MOVIE_LIST_HEADER
+import com.tc.cleanmovie.presentation.screens.ScreenName.FAVORITE_LIST
+import com.tc.cleanmovie.presentation.screens.ScreenName.FAVORITE_LIST_HEADER
+import com.tc.cleanmovie.presentation.screens.ScreenName.MOVIE_DETAILS
+import com.tc.cleanmovie.presentation.screens.ScreenName.MOVIE_DETAILS_HEADER
+import com.tc.cleanmovie.presentation.screens.ScreenName.MOVIE_LIST
+import com.tc.cleanmovie.presentation.screens.ScreenName.MOVIE_LIST_HEADER
 
 enum class Screens(
     val route: String,

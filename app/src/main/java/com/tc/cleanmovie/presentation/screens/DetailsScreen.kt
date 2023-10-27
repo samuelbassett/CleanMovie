@@ -1,4 +1,4 @@
-package com.tc.cleanmovie.presentation.screens.details
+package com.tc.cleanmovie.presentation.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -23,6 +23,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.tc.cleanmovie.framework.data.model.details.DetailsModel
+import com.tc.cleanmovie.presentation.viewmodels.DetailsViewModel
 
 @Composable
 fun DetailsScreen(

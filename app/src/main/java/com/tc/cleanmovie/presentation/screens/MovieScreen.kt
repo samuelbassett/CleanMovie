@@ -1,4 +1,4 @@
-package com.tc.cleanmovie.presentation.screens.movies
+package com.tc.cleanmovie.presentation.screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -28,7 +28,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.tc.cleanmovie.framework.data.model.movie.MovieItemModel
-import com.tc.cleanmovie.presentation.screens.navigation.Screens
+import com.tc.cleanmovie.presentation.viewmodels.MovieViewModel
 
 @Composable
 fun MovieScreen(

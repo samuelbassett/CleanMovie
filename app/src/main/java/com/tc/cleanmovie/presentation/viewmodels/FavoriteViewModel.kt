@@ -1,4 +1,4 @@
-package com.tc.cleanmovie.presentation.screens.favorite
+package com.tc.cleanmovie.presentation.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
